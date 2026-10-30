@@ -17,3 +17,8 @@ print("Hello " + name + "! Welcome to Python programming.")
 # Printing String
 my_name = "Manoj"
 print(my_name)
+
+
+# Printing Number
+my_age = 34
+print(my_age)
