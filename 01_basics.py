@@ -27,3 +27,7 @@ print(my_age)
 # Printing a Float
 my_height = 5.9
 print(my_height)
+
+
+# Comments in python
+print("Hello") # This is a comment
