@@ -14,11 +14,16 @@ name = input("Enter your name: ")
 print("Hello " + name + "! Welcome to Python programming.")
 
 
-# Printing String
+# Printing a String
 my_name = "Manoj"
 print(my_name)
 
 
-# Printing Number
+# Printing a Number
 my_age = 34
 print(my_age)
+
+
+# Printing a Float
+my_height = 5.9
+print(my_height)
