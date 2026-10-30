@@ -68,3 +68,18 @@ message1 = "Hello"
 message2 = "World"  
 print(message1, message2, sep="-")
 
+
+# Mathematical Operations inside print() finction
+print("Addition: ", 10 + 5)
+
+
+# Printing Text and Number Together - method 1
+my_name = "Manoj"
+my_age = 34
+print("My name is " + my_name + " and I am " + str(my_age) + " years old.")
+
+
+# Printing Text and Number Together - method 2
+my_name = "Manoj"
+my_age = 34
+print("My name is " + my_name,"and I am", my_age, "years old.")
