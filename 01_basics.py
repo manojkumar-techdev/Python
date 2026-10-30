@@ -31,3 +31,12 @@ print(my_height)
 
 # Comments in python
 print("Hello") # This is a comment
+
+
+# Multi-line comment
+# Take tow numbers
+# Add them
+# Print the result
+num1 = 10
+num2 = 20   
+print(num1 + num2)
