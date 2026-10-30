@@ -55,3 +55,16 @@ print("Statement 3")
 # Semicolon in Python is optional
 print("Hello"); 
 
+
+# Printing without a new line
+message1 = "Hello"
+message2 = "World"
+print(message1, end=" ")
+print(message2)
+
+
+# Printing with separator
+message1 = "Hello"
+message2 = "World"  
+print(message1, message2, sep="-")
+
