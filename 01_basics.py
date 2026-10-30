@@ -29,7 +29,7 @@ my_height = 5.9
 print(my_height)
 
 
-# Comments in python
+# Comments in Python
 print("Hello") # This is a comment
 
 
@@ -40,3 +40,18 @@ print("Hello") # This is a comment
 num1 = 10
 num2 = 20   
 print(num1 + num2)
+
+
+# Single Statement
+print("This is a single statement")
+
+
+# Multi Statement
+print("Statement 1")
+print("Statement 2")
+print("Statement 3")
+
+
+# Semicolon in Python is optional
+print("Hello"); 
+
