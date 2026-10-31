@@ -226,3 +226,22 @@ num1 = 1000000
 num2 = 234876345
 print("{:,}".format(num1))
 print("{:,}".format(num2))
+
+
+# Format percentage ---- :%
+# Multiplies a decimal number by 100 and adds %
+num = 0.75
+print("{:%}".format(num))
+
+
+
+# Format percentage ---- :.2% 
+# Percentage with 2 decimal places
+# Displays a percentage with exactly two digits after the decimal point.
+num = 0.75678
+print("{:.2%}".format(num))
+
+
+# Formatting 0.75%
+num = 0.75
+print("{}%". format(num))
