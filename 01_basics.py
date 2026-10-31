@@ -29,12 +29,17 @@ my_height = 5.9
 print(my_height)
 
 
-# Comments in Python
+# Printing a Boolean
+is_student =  True
+print(is_student)
+
+
+# Single line Comments in Python
 print("Hello") # This is a comment
 
 
 # Multi-line comment
-# Take tow numbers
+# Take two numbers
 # Add them
 # Print the result
 num1 = 10
@@ -83,3 +88,30 @@ print("My name is " + my_name + " and I am " + str(my_age) + " years old.")
 my_name = "Manoj"
 my_age = 34
 print("My name is " + my_name,"and I am", my_age, "years old.")
+
+
+# Output single variable
+my_name = "Manoj"
+print(my_name)
+
+
+# output multiple variables in multiple lines
+my_name = "Manoj"
+my_age = 34
+print(my_name)
+print(my_age)
+
+
+# output multiple variables in a single line
+my_name = "Manoj"
+my_age = 34 
+print(my_name, my_age)
+
+
+# Comma notation for multiple variables
+my_name = "Manoj"
+my_age = 34
+my_height = 5.9
+my_weight = 70
+my_city = "New York"
+print(my_name, my_age, my_height, my_weight, my_city)
