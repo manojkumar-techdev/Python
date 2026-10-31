@@ -245,3 +245,25 @@ print("{:.2%}".format(num))
 # Formatting 0.75%
 num = 0.75
 print("{}%". format(num))
+
+
+# Solve practical coding challenges
+# First try yourself.
+# Spend Maximum 5 minutes on each challenge.
+# Use ChatGPT if you cannot solve it yourself.
+# Understand the cproblem and solution.
+# Coding is all about practice and learning.
+
+
+# ======================================
+# Section 1: Basic Python programs
+
+# 1. Personal profile: Create variables for your name, age, height, weight and city. Display all details in a single sentence using an f-string.
+
+# 2. Simple greeting: Ask the user for their first name and last name. Display a personalized welcome message.
+
+# 3. Student information: Ask for student name, roll number, class and school name. Print a neatly formatted student information card.
+
+# 4. Simple addition: Ask the user to enter two numbers and display their addition, subtraction, multiplication and division.
+
+# 5. Employee details: Create variables for employee ID, name, department, salary and employment status. Display all details using print().
