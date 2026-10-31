@@ -181,3 +181,22 @@ price = 26.8765
 print(f"Price: {price:.2f}") # keeps 2 decimals
 print(f"Price: {price:.3f}") # keeps 3 decimals
 print(f"Price: {price:.4f}") # keeps 4 decimals
+
+
+# Formating percentages
+percentage = 0.85
+print(f"Succes rat: {percentage:.2%}")
+
+
+# Formatting using format() function
+# Placeholders replaces with values passed to .format() function
+name = "Manoj"
+age = 35
+print("My name is {} and I am {} years old.".format(name, age))
+
+
+# Formatting using format() function
+# Specify the position using indexes
+print("My name is {0} and I am {1} years old.".format("Manoj", 40))
+
+
