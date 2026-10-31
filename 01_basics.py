@@ -149,3 +149,29 @@ if  5  < 2:
 if 5 > 2:
     print("Five is greater than two!")
     print("Five is greater than two!")
+
+
+
+# Python formatting 
+# Arranging Text, Numbers and Output in a clean and readable way
+# Using print() function
+name = "Manoj"
+age = 35
+print("My name is :", name)
+print("My age is :", age)
+
+
+
+# Formatting using f-string
+name = "Manoj"
+age = 45
+print(f"My name is {name}")
+print(f"I am {age} years old.")
+
+
+
+# Calculating inside f-string
+num1 = 10
+num2 = 20
+print(f"Total = {num1 + num2}")
+
