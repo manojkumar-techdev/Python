@@ -175,3 +175,9 @@ num1 = 10
 num2 = 20
 print(f"Total = {num1 + num2}")
 
+
+# Formating numbers ---- control dceimal places
+price = 26.8765
+print(f"Price: {price:.2f}") # keeps 2 decimals
+print(f"Price: {price:.3f}") # keeps 3 decimals
+print(f"Price: {price:.4f}") # keeps 4 decimals
