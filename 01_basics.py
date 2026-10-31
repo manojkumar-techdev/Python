@@ -115,3 +115,37 @@ my_height = 5.9
 my_weight = 70
 my_city = "New York"
 print(my_name, my_age, my_height, my_weight, my_city)
+
+
+
+# Python version installed on system
+import sys
+print("Python version")
+print (sys.version)
+
+
+# Coomand prompt in Python
+# Open Terminal --> type "py & press Enter"
+# exit() ---- To exit from Python command prompt
+
+
+
+# Indentation to indicate a block code
+if 5 > 2:
+    print("Five is greater than two!")
+
+
+
+# Number of spaces / tab depend on programmer 
+if 5 > 2:
+    print("Five is greater than two!")
+if  5  < 2:
+        print("Five is less than two!")
+
+
+
+# Use the same number of spaces in the same block of code 
+# Otherwise Python will give you an error
+if 5 > 2:
+    print("Five is greater than two!")
+    print("Five is greater than two!")
