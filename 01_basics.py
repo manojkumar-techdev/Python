@@ -316,3 +316,18 @@ print("{}%". format(num))
 
 # 20. Number system converter: Create a variable containing 100. Display it in decimal, binary, octal and hexadecimal formats using format().
 
+
+# ======================================
+# Section 5: Challenge programs
+
+# 21. Student report card: Ask for student details and marks in five subjects. Display a complete report card with total, average and percentage.
+
+# 22. Discount calculator: Ask for product name, original price and discount percentage. Calculate the discount amount and final price.
+
+# 23. Loan repayment calculator: Ask for loan amount, annual interest rate and loan period in years. Calculate simple interest and total repayment.
+# SI = P×R×T / 100
+
+# 24. Travel expense calculator: Ask for distance, vehicle mileage, fuel price, hotel cost and food cost. Calculate total travel expenses.
+
+# 25. Monthly budget planner: Ask for monthly salary and expenses on rent, food, transport, shopping and savings. Display the remaining balance and savings percentage.
+
