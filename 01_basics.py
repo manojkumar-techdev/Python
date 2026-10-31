@@ -267,3 +267,19 @@ print("{}%". format(num))
 # 4. Simple addition: Ask the user to enter two numbers and display their addition, subtraction, multiplication and division.
 
 # 5. Employee details: Create variables for employee ID, name, department, salary and employment status. Display all details using print().
+
+
+# ======================================
+# Section 2: Input and mathematical calculations
+
+# 6. Age calculator: Ask for the user's birth year and calculate their approximate age using 2026.
+
+# 7. Rectangle calculator: Ask for length and width. Calculate area and perimeter.
+
+# 8. Circle calculator: Ask for the radius. Calculate the area and circumference. Use π=3.14159
+
+# 9. Temperature converter: Ask for temperature in Celsius and convert it to Fahrenheit.
+
+# 10. Average calculator: Ask for five subject marks. Calculate total, average and percentage.
+
+
