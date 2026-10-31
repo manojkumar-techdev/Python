@@ -296,3 +296,23 @@ print("{}%". format(num))
 
 # 15. Electricity bill: Ask for electricity units consumed and price per unit. Calculate the total electricity bill.
 
+
+# ======================================
+# Section 4: Python string and number formatting
+
+# 16. Employee salary slip: Display employee name, ID, basic salary and total salary in a properly aligned salary slip.
+
+# 17. Percentage formatter: Ask for marks obtained and maximum marks. Calculate and display the percentage with two decimal places.
+
+# 18. Number formatting: Take the number 987654321.98765 and display it with:
+
+    # Two decimal places
+    # Three decimal places
+    # Thousands separators
+
+    # Thousands separators and two decimal places
+
+# 19. Currency formatter: Ask for product price and quantity. Display the total as a currency amount with two decimal places.
+
+# 20. Number system converter: Create a variable containing 100. Display it in decimal, binary, octal and hexadecimal formats using format().
+
