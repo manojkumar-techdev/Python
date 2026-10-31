@@ -283,3 +283,16 @@ print("{}%". format(num))
 # 10. Average calculator: Ask for five subject marks. Calculate total, average and percentage.
 
 
+# ======================================
+# Section 3: Real-world practical programs
+
+# 11. Shopping bill: Ask for product name, price and quantity. Calculate the total bill and display it with two decimal places.
+
+# 12. Salary calculator: Ask for basic salary, allowance and bonus. Calculate gross salary and display it with comma separators.
+
+# 13. Restaurant bill: Ask for food cost, service charge percentage and tax percentage. Calculate the final bill.
+
+# 14. Fuel expense calculator: Ask for distance travelled, fuel efficiency (km per litre) and fuel price per litre. Calculate the fuel required and total fuel cost.
+
+# 15. Electricity bill: Ask for electricity units consumed and price per unit. Calculate the total electricity bill.
+
