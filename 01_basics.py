@@ -186,6 +186,7 @@ print(f"Price: {price:.4f}") # keeps 4 decimals
 # Formating percentages
 percentage = 0.85
 print(f"Succes rat: {percentage:.2%}")
+print("{:.2%}".format(percentage))
 
 
 # Formatting using format() function
@@ -200,3 +201,28 @@ print("My name is {} and I am {} years old.".format(name, age))
 print("My name is {0} and I am {1} years old.".format("Manoj", 40))
 
 
+# Formating using variable names
+print("Name: {name}, Age: {age}".format(name="Manoj", age=30))
+
+
+# Formatting Alignment and Spacing
+print("{:<10}".format("Python"))  # Left aligned
+print("{:>10}".format("Python"))  # Right aligned
+print("{:^10}".format("Python"))  # Center aligned
+
+
+# Built-in format() function without a string
+price = 26.8765
+print(format(price, ".2f"))
+
+
+# Decimal integer format
+num = 25
+print("{:d}".format(num))
+
+
+# Thousand separator
+num1 = 1000000
+num2 = 234876345
+print("{:,}".format(num1))
+print("{:,}".format(num2))
