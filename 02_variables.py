@@ -167,3 +167,13 @@ myFunc()
 print(fName)
 
 
+
+# Local variable -- used inside function only
+fName = "Manoj"
+
+def myFunc():
+    fName = "Kumar"
+    print("My name is " + fName)
+
+myFunc()
+print(fName)
