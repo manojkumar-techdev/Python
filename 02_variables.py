@@ -117,3 +117,53 @@ print(y)
 print(x)
 
 
+
+
+# Variable reassignment
+x = 1
+y = x
+y = y + 1
+
+print(x)
+print(y)
+
+
+
+# Deleting a variable
+students_count = 10
+del students_count
+print(students_count)
+
+
+
+# Swapping two variables using multiple assignment
+a, b = 5, 10
+a, b = b, a
+print(a, b)
+
+
+
+# Swapping two variables using temp variable
+# +++++++++++++++++++++++++++++++++++
+a = 10
+b = 20
+
+temp = a
+a = b
+b = temp
+
+print("a =", a)
+print("b =", b)
+
+
+
+# Globa variable -- can be used anywhere
+fName = "Manoj"
+
+def myFunc():
+    print("My name is " + fName)
+
+myFunc()
+print(fName)
+
+
