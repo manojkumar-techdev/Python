@@ -177,3 +177,26 @@ def myFunc():
 
 myFunc()
 print(fName)
+
+
+
+# Function scope creates local variable
+def myFunc():
+    fLang = "Java"
+    print(fLang)
+
+myFunc()
+print(fLang) # error
+
+
+
+
+# Making local variable to global variable
+def myFunc():
+    global fLang
+    fLang = "Java"
+    print(fLang)
+
+myFunc()
+print(fLang)
+
