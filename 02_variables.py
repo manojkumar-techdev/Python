@@ -97,4 +97,23 @@ print(task1, task2, task3)
 
 
 
+# Variable assignment and reassignment
+x  = 5
+print(x)
+print(type(x))
+
+y = x
+print(y)
+print(x is y)  # True
+print(id(x))
+print(id(y))
+
+x = "Python"
+print(x)
+print(y)
+
+y = "Java"
+print(y)
+print(x)
+
 
