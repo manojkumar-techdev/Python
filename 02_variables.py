@@ -49,3 +49,19 @@ N9 = 9
 n9 = 9
 
 
+
+# Variable techniques for variables with multiple names
+# camel case
+myFirstName = "Manoj"
+
+
+# Variable techniques for variables with multiple names
+# pascal case
+MyMiddleName = "Kumar"
+
+
+# Variable techniques for variables with multiple names
+# snake case
+my_last_name = "Gupta"
+
+
