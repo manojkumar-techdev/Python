@@ -267,3 +267,25 @@ y = x
 print(id(x))
 print(id(y))
 print(x is y)
+
+
+
+# Immutable objects
+x = 10
+y = x
+
+x = 20
+
+print(x)
+print(y)
+
+
+
+# Mutable objects
+x = [10, 20, 30]
+y = x
+
+x.append(40)
+
+print(x)
+print(y)
