@@ -231,6 +231,20 @@ print(myFirstName)
 
 
 # Pascal Case
-MyVariableName = "Manoj"
-print(MyVariableName)
+MyFirstName = "Manoj"
+print(MyFirstName)
 
+
+
+# Snake  Case
+my_first_name = "Manoj"
+print(my_first_name)
+
+
+
+# Dynamic typing in python
+x = 10
+print(type(x))
+
+x = "Python"
+print(type(x))
