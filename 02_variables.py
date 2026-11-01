@@ -85,3 +85,16 @@ print(z)
 
 
 
+# Assigning same value to variable
+color1 = color2 = color3 = "Red"
+print(color1, color2,color3)
+
+
+
+# Assigning different values
+task1, task2, task3 = 10, 20, 30
+print(task1, task2, task3)
+
+
+
+
