@@ -65,3 +65,23 @@ MyMiddleName = "Kumar"
 my_last_name = "Gupta"
 
 
+
+# Many values to multiple variables
+x, y, z = 10, 20, 30
+print(x, y, x)
+print("------------")
+print(x)
+print(y)
+print(z)
+
+
+# One value to multiple variables
+x = y = z = 100
+print(x, y, x)
+print("------------")
+print(x)
+print(y)
+print(z)
+
+
+
