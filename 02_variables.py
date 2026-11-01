@@ -248,3 +248,12 @@ print(type(x))
 
 x = "Python"
 print(type(x))
+
+
+
+# ID of variables
+x = 100
+
+print(x)
+print(type(x))
+print(id(x))
