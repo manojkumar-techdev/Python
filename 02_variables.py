@@ -223,3 +223,14 @@ print(y)
 print(z)
 
 
+
+# Camel case
+myFirstName = "Manoj"
+print(myFirstName)
+
+
+
+# Pascal Case
+MyVariableName = "Manoj"
+print(MyVariableName)
+
