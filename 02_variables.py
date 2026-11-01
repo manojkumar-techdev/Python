@@ -19,3 +19,11 @@ print(val)
 my_name = "Manoj"
 my_age = 45
 print(type(my_name))
+
+
+
+# Variables are case-sensitive
+my_name = "Manoj"
+My_name = "Manoj"
+print(my_name)
+print(My_name)
