@@ -257,3 +257,13 @@ x = 100
 print(x)
 print(type(x))
 print(id(x))
+
+
+
+# Variables are references to objects
+x = 100
+y = x
+
+print(id(x))
+print(id(y))
+print(x is y)
