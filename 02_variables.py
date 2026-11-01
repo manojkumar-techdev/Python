@@ -200,3 +200,26 @@ def myFunc():
 myFunc()
 print(fLang)
 
+
+
+# Overriding global variable with local
+x = "awesome"
+def myfunc():
+  global x
+  x = "fantastic"
+  print(x)
+
+myfunc()
+print("Python is " + x)
+
+
+
+# Unpacking collections
+fruits = ["apple", "mango", "cherry"]
+x, y, z = fruits
+
+print(x)
+print(y)
+print(z)
+
+
