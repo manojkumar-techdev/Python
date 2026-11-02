@@ -304,3 +304,11 @@ x = None
 
 if x is None:
     print("No value")
+
+
+# Conditional Operator (Ternary Operator)
+age = 20
+
+result = "Adult" if age >= 18 else "Minor"
+
+print(result)
