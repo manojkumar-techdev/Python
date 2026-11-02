@@ -266,3 +266,41 @@ student = {
 print("name" in student)
 print("Manoj" in student)
 print("Manoj" in student.values())
+
+
+
+# Identiti Operators
+# operators check whether two variables refer to the same object in memory
+
+
+# IS operator (is)
+a = [10, 20, 30]
+b = a
+
+print(a is b)
+
+
+# IS NOT operator (is not)
+a = [10, 20, 30]
+b = [10, 20, 30]
+
+print(a is not b)
+
+
+
+# Although both lists contain the same values
+# They are separate objects.
+# Difference between == and is
+a = [10, 20, 30]
+b = [10, 20, 30]
+
+print(a == b)
+print(a is b)
+
+
+
+# Recommended Use
+x = None
+
+if x is None:
+    print("No value")
