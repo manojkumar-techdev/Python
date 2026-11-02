@@ -153,3 +153,34 @@ print(x := 10)
 # := is an assignment expression
 if (length := len("Python")) > 5:
     print(length)
+
+
+
+# Comparison Operators
+
+
+age1 = 20
+age2 = 10
+
+# Equal to
+print(age1 == age2) 
+
+
+# Not Equal to
+print(age1 != age2)
+
+
+# Greater than
+print(age1 > age2)
+
+
+# Less than
+print(age1 < age2)
+
+
+# Greater than or Equal to
+print(age1 >= age2)
+
+
+# Less than or Equal to
+print(age1 <= age2)
