@@ -216,3 +216,15 @@ if (not age1 < 15):
     print("Condition is True")
 else:
     print("Condition is False")
+
+
+# Bitwise Operators
+age1 = 20
+age2 = 10
+
+print(age1 & age2)  # Bitwise AND
+print(age1 | age2)  # Bitwise OR    
+print(age1 ^ age2)  # Bitwise XOR
+print(~age1)        # Bitwise NOT
+print(age1 << 2)  # Bitwise Left Shift
+print(age1 >> 2)  # Bitwise Right Shift
