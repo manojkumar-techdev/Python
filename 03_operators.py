@@ -352,3 +352,18 @@ x = 5
 
 print(not x)
 print(~x)
+
+
+
+# ---- Operator Quiz
+# 1 What is the output of 10 / 2?
+# 2 What is the output of 10 // 3?
+# 3 What is the output of 10 % 3?
+# 4 What is the output of 2 ** 3?
+# 5 Which operator is used for exponentiation?
+# 6 Which operator checks whether two values are equal?
+# 7 What is the output of True and False?
+# 8 What is the output of 5 & 3?
+# 9 Which operator checks membership?
+# 10 What is the output of ~5?
+# 11 What is the difference between is and ==?
