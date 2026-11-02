@@ -312,3 +312,43 @@ age = 20
 result = "Adult" if age >= 18 else "Minor"
 
 print(result)
+
+
+# Python Operator Precedence
+print(10 + 5 * 2)
+
+
+# Python Operator Precedence
+print((10 + 5) * 2)
+
+
+# Python Operator Precedence
+print(2 ** 3 ** 2)
+
+
+# Python Operator Precedence
+2 ** (3 ** 2)
+
+
+# Python Operator Precedence
+print(True or False and False)
+
+
+# and vs &
+# and performs logical operations and supports short-circuiting.
+# & performs bitwise operations on integers and Boolean operands
+a = True
+b = False
+
+print(a and b)
+print(a & b)
+
+
+
+# not vs ~
+# not 5 returns False because 5 is truthy.
+# ~5 returns -6 because it inverts the integer's bits according to Python's integer representation.
+x = 5
+
+print(not x)
+print(~x)
