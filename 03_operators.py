@@ -228,3 +228,41 @@ print(age1 ^ age2)  # Bitwise XOR
 print(~age1)        # Bitwise NOT
 print(age1 << 2)  # Bitwise Left Shift
 print(age1 >> 2)  # Bitwise Right Shift
+
+
+
+# Membership Operators
+# Checks whether a value exists inside a sequence or collcetion.
+
+
+
+# IN operator (in)
+fruits = ["apple", "banana", "mango"]
+
+print("apple" in fruits)
+print("orange" in fruits)
+
+
+# NOT IN operator (not in)
+fruits = ["apple", "banana", "mango"]
+
+print("orange" not in fruits)
+print("apple" not in fruits)
+
+
+# Membership Operator in Strings
+name = "Python Programming"
+
+print("Python" in name)
+print("Java" in name)
+
+
+# Membership operators in Dictionaries
+student = {
+    "name": "Manoj",
+    "age": 25
+}
+
+print("name" in student)
+print("Manoj" in student)
+print("Manoj" in student.values())
