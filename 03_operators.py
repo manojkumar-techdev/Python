@@ -184,3 +184,35 @@ print(age1 >= age2)
 
 # Less than or Equal to
 print(age1 <= age2)
+
+
+
+# Logical Operators
+# AND Operator
+age1 = 20
+age2 = 10
+
+if age1 > 10 and age2 < 20:
+    print("Both conditions are True")
+else:
+    print("One or both conditions are False")
+
+
+# OR Operator
+age1 = 20   
+age2 = 10
+
+if age1 > 10 or age2 < 5:
+    print("At least one condition is True")
+else:
+    print("Both conditions are False")
+
+
+# NOT Operator
+age1 = 20   
+age2 = 10
+
+if (not age1 < 15):
+    print("Condition is True")
+else:
+    print("Condition is False")
